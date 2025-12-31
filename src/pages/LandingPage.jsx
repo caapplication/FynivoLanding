@@ -69,7 +69,7 @@ const LandingPage = () => {
                     <div className="hidden md:flex items-center gap-4">
                         <Button
                             className="bg-white text-blue-950 hover:bg-blue-50 rounded-full px-8 shadow-lg shadow-blue-500/20 transition-all hover:scale-105"
-                            onClick={() => window.location.href = "https://app.fynivo.in"}
+                            onClick={() => window.location.href = "https://app.fynivo.in/login"}
                         >
                             Log in
                         </Button>
@@ -128,7 +128,7 @@ const LandingPage = () => {
                             </a>
                             <Button
                                 className="w-full bg-white text-blue-950 rounded-full h-12"
-                                onClick={() => window.location.href = "https://app.fynivo.in"}
+                                onClick={() => window.location.href = "https://app.fynivo.in/login"}
                             >
                                 Log In
                             </Button>
